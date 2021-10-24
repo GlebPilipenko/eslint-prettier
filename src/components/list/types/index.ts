@@ -1,4 +1,4 @@
 export type PropsType = {
   addCoupon: string;
-  onButtonCloseClick: () => void;
+  onCloseClick: () => void;
 };

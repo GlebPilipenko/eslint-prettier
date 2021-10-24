@@ -6,7 +6,7 @@ import { PropsType } from './types';
 import { ReturnComponentType } from 'types';
 
 export const List: FC<PropsType> = memo(
-  ({ addCoupon, onButtonCloseClick }): ReturnComponentType => {
+  ({ addCoupon, onCloseClick }): ReturnComponentType => {
     const inputRef: RefObject<HTMLInputElement> = useRef(null);
 
     const { inputValue, handleInputValueChange: onChange } = useHook();
@@ -34,7 +34,7 @@ export const List: FC<PropsType> = memo(
     return (
       <>
         <input ref={inputRef} type="text" value={inputValue} onChange={onChange} />
-        <button type="button" onClick={onButtonCloseClick}>
+        <button type="button" onClick={onCloseClick}>
           Close
         </button>
       </>
