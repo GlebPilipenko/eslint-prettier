@@ -44,6 +44,16 @@ export const App: FC = (): ReturnComponentType => null;
 // If you get error >>>>> "context.getPhysicalFilename is not a function" <<<<<,
 // use this link https://issueexplorer.com/issue/prettier/eslint-plugin-prettier/434
 
+// If you have other error, remove object in package.json:
+// "eslintConfig": {
+//   "extends": [
+//     "react-app",
+//     "react-app/jest"
+//    ]
+// },
+//
+// restar IDE, wait some minutes, because IDE analyzing you code and start work.
+
 // ~~~ POSSIBLE ERROR ~~~
 // ~~~ POSSIBLE ERROR ~~~
 // ~~~ POSSIBLE ERROR ~~~
