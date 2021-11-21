@@ -30,6 +30,7 @@
     "no-plusplus": "error",
     "no-unused-vars": "off",
     "no-magic-numbers": "off",
+    "default-param-last": "off",
     "no-use-before-define": "off",
     "no-multiple-empty-lines": [
       "error",
