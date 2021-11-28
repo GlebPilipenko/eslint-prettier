@@ -52,12 +52,12 @@
     * not use magic number | value => BAD PRACTICE <= 
     * not props.users => ({ users }) => and use in component users without props.
     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~    
-    * use destructuring in props and .map() (array methods)
+    * use destructuring in props, .map() (all array methods) and in incoming parameters of functions
     
     const students = [{ id: 1, name: 'Gleb' }];
     students.map(({ id, name }) => ...), please not use students.map((student or el) => student.id or el.name)
     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-    * use useMemo, useCallback
+    * use useMemo, useCallback not anywhere
     * take out logic to utils function
     * use early return for JSX & function
     * useSelector => take out selector outside
