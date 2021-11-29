@@ -21,7 +21,7 @@ yarn add -D @typescript-eslint/eslint-plugin
 
 ## Create file
 Create .env in your project folder => add code from .env into your .env file
-Create .pretierrc file in your project folder => add code from .pretierrc into your .pretierrc file
+Create .prettierrc file in your project folder => add code from .pretierrc into your .pretierrc file
 Create .eslintrc.json in your project folder => add code from .eslintrc.json into your .eslintrc.json file
 Create .eslintrcignore in your project folder => add code from .eslintrcignore into your .eslintrcignore file
 
