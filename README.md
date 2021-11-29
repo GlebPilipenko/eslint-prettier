@@ -1,8 +1,7 @@
-# Last update 21 november 2021
-
-## Remove all unused code, files, comments, folders, please get clean app, we speak about it on lesson...
+# Last update 28 november 2021
 
 ## If you use Webstorm or PhpStorm => open setting window or ctrl + alt + s, => Editor => Code style => and search field "Hard wrap at" => change value on 90
+## Open setting window, top left in the search field add 'eslint' => (you will see 'Fix Eslint Problems' => add hot key and use it)
 
 ## Install all packages... (yarn add ~ or ~ npm install) => i did with YARN
  
@@ -47,6 +46,16 @@ If you have other error, remove object in package.json:
 POSSIBLE ERROR
 POSSIBLE ERROR
 POSSIBLE ERROR
+
+
+
+
+
+## After installing all the packages and checking, go to the README_HELPER.md file there is a lot of useful information for you (:
+
+
+
+
 
 ## IF YOU FOUND AN INTERESTING BUG OR HAVE PROBLEM WITH START APP, WRITE ME IN TELEGRAM
 @gleb_pilipenka

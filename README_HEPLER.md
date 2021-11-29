@@ -1,15 +1,18 @@
-# Study your code carefully, if you see duplicate code, make a wrapper function, 
-# or look for solutions on how to get rid of code duplication.
+# 1) Clean code => Remove all unused code, lines, files, comments, folders...
 
-# 1) Clean code => remove all unused line and file
+# 2) Three principles to keep in mind: 
+    - DRY (Don't reapeat yourselfe...), - Не повторяйся, т.е. нет дублированию кода или максимально стараться от него избавляться...
+    - KISS (Keep it simple, stupid), - Код должен быть максимально простой, тупой, если коротко, то смотря на код, понимаешь, что он делает без вникания... 
+    - YAGNI (You aren't gonna need it), - Не надо писать код, который когда-то понадобиться, код в программе должен быть только тот, которой требуется для 
+    решения текущих задач...
 
-# 2) Eslint & prettier
+# 3) Eslint & prettier
 
-# 3) Add file to .gitignore
+# 4) Add file to .gitignore
 
-# 4) tsConfig.ts => baseUrl 'src' or '.'
+# 5) tsConfig.ts => baseUrl 'src' or '.'
 
-# 5) English language it's SVO language, Subject, Verb, Object
+# 6) Naming for methods, function, English language it's SVO language, Subject, Verb, Object
     * Subject - Субъект, - кто делает? Обычно опускается... 
     * Verb - Глагол, - что делаем? (
         - get,
@@ -32,8 +35,14 @@
         - edit,
         - other...
     ),
-    * Subject - Объект - предмет на который направлено действие.
-    * Naming for predicat function: is..., are... has..., can..., should...
+    * Object - Объект - предмет на который направлено действие. (
+        users,
+        todoLists,
+        data,
+        title,
+        other...
+    ),
+    * Naming for predicat function: is..., are..., has..., can..., should...
 
     ~~~ MUST READ ~~~
     - event handler naming React
@@ -44,7 +53,7 @@
     https://betterprogramming.pub/a-useful-framework-for-naming-your-classes-functions-and-variables-e7d186e3189f
     ~~~ MUST READ ~~~
 
-# 6) Component
+# 7) Component
     * if component get props, use memo wrapper
     * use decomposition, (folder, file...)
     * types => not Array<string>, please use => string[]
@@ -71,7 +80,7 @@
     https://stackoverflow.com/questions/47882/what-is-a-magic-number-and-why-is-it-bad
 
     - reducers
-    https://habr.com/ru/post/564004/ - сложная, не с первого раза зайдёт, повторяйте, вникайте.
+    https://habr.com/ru/post/564004/ - поймите основу, принцип, не тратьте время на библиотеки reselect и т.д., тк зависните на долго...
 
     - early return pattern
     https://szymonkrajewski.pl/why-should-you-return-early/
