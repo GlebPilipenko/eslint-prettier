@@ -12,12 +12,21 @@ yarn add -D eslint-plugin-import => check all imports for correct work
 yarn add -D eslint-plugin-prettier
 yarn add -D eslint-plugin-jsx-a11y => check code, for people with disabilities
 
+## Full command:
+yarn add -D eslint prettier eslint-plugin-react eslint-plugin-react-hooks eslint-plugin-import eslint-plugin-prettier eslint-plugin-jsx-a11y
+
 yarn add -D eslint-config-airbnb => airbnb config
 yarn add -D eslint-config-prettier => prettier config, no conflict with airbnb
 yarn add -D eslint-import-resolver-typescript => for correct work eslint-plugin-import package with typescript
 
-yarn add -D @typescript-eslint/parser => eslint parser code for typescript 
+## Full command:
+yarn add -D eslint-config-airbnb eslint-config-prettier eslint-import-resolver-typescript
+
+yarn add -D @typescript-eslint/parser => eslint parser code for typescript
 yarn add -D @typescript-eslint/eslint-plugin
+
+## Full command:
+yarn add -D @typescript-eslint/parser @typescript-eslint/eslint-plugin
 
 ## Create file
 Create .env in your project folder => add code from .env into your .env file
