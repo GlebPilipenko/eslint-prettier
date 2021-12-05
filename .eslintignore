@@ -1,3 +1,4 @@
 *.css
 *.json
 *.d.ts
+src/serviceWorker.ts
