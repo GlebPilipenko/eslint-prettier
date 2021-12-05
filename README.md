@@ -1,4 +1,4 @@
-# Last update 28 november 2021
+# Last update 5 december 2021
 
 ## If you use Webstorm or PhpStorm => open setting window or ctrl + alt + s, => Editor => Code style => and search field "Hard wrap at" => change value on 90
 ## Open setting window, top left in the search field add 'eslint' => (you will see 'Fix Eslint Problems' => add hot key and use it)
