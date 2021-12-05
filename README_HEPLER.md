@@ -2,9 +2,14 @@
 
 # 2) Three principles to keep in mind: 
     - DRY (Don't reapeat yourselfe...), - Не повторяйся, т.е. нет дублированию кода или максимально стараться от него избавляться...
+    https://www.youtube.com/watch?v=NWemqNMCesQ
+    
     - KISS (Keep it simple, stupid), - Код должен быть максимально простой, тупой, если коротко, то смотря на код, понимаешь, что он делает без вникания... 
+    https://www.youtube.com/watch?v=rix-fkrloq4
+
     - YAGNI (You aren't gonna need it), - Не надо писать код, который когда-то понадобиться, код в программе должен быть только тот, которой требуется для 
     решения текущих задач...
+    https://www.youtube.com/watch?v=Ot2eB07rjcI
 
 # 3) Eslint & prettier
 

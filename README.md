@@ -23,7 +23,7 @@ yarn add -D @typescript-eslint/eslint-plugin
 Create .env in your project folder => add code from .env into your .env file
 Create .prettierrc file in your project folder => add code from .pretierrc into your .pretierrc file
 Create .eslintrc.json in your project folder => add code from .eslintrc.json into your .eslintrc.json file
-Create .eslintrcignore in your project folder => add code from .eslintrcignore into your .eslintrcignore file
+Create .eslintignore in your project folder => add code from .eslintignore into your .eslintignore file
 
 ## into .gitignore file copy lines 25-29 and add code into your .gitignore file
 ## Base url => tsconfig.json ('.' or 'src') => absolute paths for app,
