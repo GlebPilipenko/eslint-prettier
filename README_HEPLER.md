@@ -75,6 +75,7 @@
     * take out logic to utils function
     * use early return for JSX & function
     * useSelector => take out selector outside
+    * use enum, for status code, key code, path, key of local storage...
     * use customHooks, take out logic in custom hooks
     * don't use nested ternary expressions => BAD PRACTIES <== ( a ? b ? c : d )
     * more line code, less nested code
