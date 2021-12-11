@@ -1,4 +1,4 @@
-import { FC } from 'react';
+import { FC, MouseEventHandler } from 'react';
 
 import { ExampleType } from './types';
 
@@ -71,6 +71,22 @@ export const Example: FC<ExampleType> = (): ReturnComponentType => {
   // Line for correct eslint work...
   console.log('Example');
 
+  const onClick =
+    (
+      firstParameter: string,
+      secondParameter: string,
+    ): MouseEventHandler<HTMLHeadingElement> =>
+    (): void => {
+      console.log(`${firstParameter}+_+${secondParameter}`);
+    };
+
   // JSX
-  return <h1>EXAMPLE</h1>;
+  return (
+    <>
+      <h1>EXAMPLE</h1>
+      <div role="presentation" onClick={onClick('firstParameter', 'secondParameter')}>
+        Click Me!
+      </div>
+    </>
+  );
 };
