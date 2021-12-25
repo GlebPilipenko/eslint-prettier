@@ -66,7 +66,7 @@
     * if component get props, use memo wrapper;
     * use decomposition, (folder, file...);
     * types => not Array<string>, please use => string[];
-    * imports => absolute paths and useInput.spec.ts;
+    * imports => use absolute paths;
     * not use magic number | value => BAD PRACTICE <=;
     * not props.users => ({ users }) => and use in component users without props;
     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~    

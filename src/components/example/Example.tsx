@@ -54,6 +54,15 @@ export const Example: FC<ExampleType> = (): ReturnComponentType => {
 
   // const onChange = (event: ChangeEvent<HTMLInputElement>): void => setState3(event.currentTarget.value);
 
+  const onClick =
+    (
+      firstParameter: string,
+      secondParameter: string,
+    ): MouseEventHandler<HTMLHeadingElement> =>
+    (): void => {
+      console.log(`${firstParameter}+_+${secondParameter}`);
+    };
+
   // useEffect => not block, empty line
   // useEffect(() => {
   // ...
@@ -70,15 +79,6 @@ export const Example: FC<ExampleType> = (): ReturnComponentType => {
 
   // Line for correct eslint work...
   console.log('Example');
-
-  const onClick =
-    (
-      firstParameter: string,
-      secondParameter: string,
-    ): MouseEventHandler<HTMLHeadingElement> =>
-    (): void => {
-      console.log(`${firstParameter}+_+${secondParameter}`);
-    };
 
   // JSX
   return (
