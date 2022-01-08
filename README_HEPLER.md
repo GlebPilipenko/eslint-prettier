@@ -1,8 +1,8 @@
 # 1) Clean code => Remove all unused code, lines, files, comments, folders...
 
 # 2) Please, don't do that => https://www.youtube.com/watch?v=UHzYXfJwgew
-## 2.1) 8min 17sec it's important, read about it
-## 2.2) 8min 29sec ТАК НЕ ДЕЛАТЬ, ОТРУБАЮТ РУКИ! 👹
+# 2.1) 8min 17sec it's important, read about it
+# 2.2) 8min 29sec ТАК НЕ ДЕЛАТЬ, ОТРУБАЮТ РУКИ! 👹
 
 # 3) Three principles to keep in mind: 
     - DRY (Don't reapeat yourselfe...), - Не повторяйся, т.е. нет дублированию кода или максимально стараться от него избавляться...
@@ -17,11 +17,13 @@
 
 # 4) Eslint & prettier
 
-# 5) Add file to .gitignore
+# 5) Install SonarLintPlugin, plugin who check your code on code smells. Simple setting show in video lesson in (personal area).
 
-# 6) tsConfig.ts => baseUrl 'src' or '.'
+# 6) Add file to .gitignore
 
-# 7) Naming for methods, function, English language it's SVO language, Subject, Verb, Object
+# 7) tsConfig.ts => baseUrl 'src' or '.'
+
+# 8) Naming for methods, function, English language it's SVO language, Subject, Verb, Object
     * Subject - Субъект, - кто делает? Обычно опускается... 
     * Verb - Глагол, - что делаем? (
         - get,
@@ -62,7 +64,7 @@
     https://betterprogramming.pub/a-useful-framework-for-naming-your-classes-functions-and-variables-e7d186e3189f
     ~~~ MUST READ ~~~
 
-# 8) Component
+# 9) Component
     * if component get props, use memo wrapper;
     * use decomposition, (folder, file...);
     * types => not Array<string>, please use => string[];
@@ -83,6 +85,8 @@
     * use customHooks, take out logic in custom hooks;
     * don't use nested ternary expressions => BAD PRACTIES <== ( a ? b ? c : d );
     * more line code, less nested code;
+
+# 10) Abstraction
 
     ~~~ MUST READ ~~~
     - magic number pattern;
