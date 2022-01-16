@@ -63,11 +63,6 @@ export const Example: FC<ExampleType> = (): ReturnComponentType => {
       console.log(`${firstParameter}+_+${secondParameter}`);
     };
 
-  // useEffect => not block, empty line
-  // useEffect(() => {
-  // ...
-  // }, [ ... ])
-
   // Early return => not block, empty line
   // if (!cats.length) {
   //   return null;

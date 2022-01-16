@@ -1,4 +1,4 @@
-// import { EMPTY_STRING } from 'constants/baseConstants';
+// import { EMPTY_STRING } from 'constants/base';
 //
 // export const getTrimmedValue = (value: string): string => {
 //   Early return...

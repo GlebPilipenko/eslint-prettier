@@ -1,4 +1,4 @@
-## Last update 8 january 2022
+## Last update 16 january 2022
 
 ### If you use Webstorm or PhpStorm => open setting window or ctrl + alt + s, => Editor => Code style => and search field "Hard wrap at" => change value on 90
 ### Open setting window, top left in the search field add 'eslint' => (you will see 'Fix Eslint Problems' => add hot key and use it)
@@ -10,8 +10,7 @@ yarn add -D eslint => linter, code style analyzer yarn add -D prettier => format
 add -D eslint-plugin-react => exclude writing anti-patterns yarn add -D
 eslint-plugin-react-hooks => check valid hooks in react code yarn add -D
 eslint-plugin-import => check all imports for correct work yarn add -D
-eslint-plugin-prettier yarn add -D eslint-plugin-jsx-a11y => check code, for people with
-disabilities
+eslint-plugin-prettier yarn add -D eslint-plugin-jsx-a11y => check code, for people with disabilities
 
 ### Full command => yarn add -D eslint prettier eslint-plugin-react eslint-plugin-react-hooks eslint-plugin-import eslint-plugin-prettier eslint-plugin-jsx-a11y
 

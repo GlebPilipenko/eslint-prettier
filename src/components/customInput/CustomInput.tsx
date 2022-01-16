@@ -2,13 +2,13 @@ import { FC, memo } from 'react';
 
 import { CustomInputType } from './types';
 
-import { useInput } from 'hooks';
+import { useFieldValue } from 'hooks';
 import { ReturnComponentType } from 'types';
 
 // const CROP_INDEX = 3;
 
 export const CustomInput: FC<CustomInputType> = memo(({ title }): ReturnComponentType => {
-  const { inputValue, handleInputValueChange: onInputValueChange } = useInput();
+  const { inputValue, handleFieldValueChange } = useFieldValue();
 
   // If you are using a magic number and this is a local case,
   // you can create a constant before declaring the component => see line #8
@@ -23,7 +23,7 @@ export const CustomInput: FC<CustomInputType> = memo(({ title }): ReturnComponen
   return (
     <div>
       <h1>{title}</h1>
-      <input type="text" value={inputValue} onChange={onInputValueChange} />
+      <input type="text" value={inputValue} onChange={handleFieldValueChange} />
     </div>
   );
 });
