@@ -24,7 +24,7 @@
 # 7) tsConfig.ts => baseUrl 'src' or '.'
 
 # 8) Naming for methods, function, English language it's SVO language, Subject, Verb, Object
-    * Subject - Субъект, - кто делает? Обычно опускается... 
+    * Subject - Субъект, - кто делает? Обычно опускается...
     * Verb - Глагол, - что делаем? (
         - get,
         - set,
