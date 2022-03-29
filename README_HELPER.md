@@ -17,13 +17,11 @@
 
 # 4) Eslint & prettier
 
-# 5) Install SonarLintPlugin, plugin who check your code on code smells. Simple setting show in video lesson in (personal area).
+# 5) Add file to .gitignore
 
-# 6) Add file to .gitignore
+# 6) tsConfig.ts => baseUrl 'src' or '.'
 
-# 7) tsConfig.ts => baseUrl 'src' or '.'
-
-# 8) Naming for methods, function, English language it's SVO language, Subject, Verb, Object
+# 7) Naming for methods, function, English language it's SVO language, Subject, Verb, Object
     * Subject - Субъект, - кто делает? Обычно опускается...
     * Verb - Глагол, - что делаем? (
         - get,
@@ -64,12 +62,12 @@
     https://betterprogramming.pub/a-useful-framework-for-naming-your-classes-functions-and-variables-e7d186e3189f
     ~~~ MUST READ ~~~
 
-# 9) Component
+# 8) Component
     * if component get props, use memo wrapper;
     * use decomposition, (folder, file...);
     * types => not Array<string>, please use => string[];
     * imports => use absolute paths;
-    * not use magic number | value => BAD PRACTICE <=;
+    * not use magic number => BAD PRACTICE <=;
     * not props.users => ({ users }) => and use in component users without props;
     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~    
     * use destructuring in props, .map() (all array methods) and in incoming parameters of functions;
@@ -80,13 +78,19 @@
     * use useMemo, useCallback;
     * take out logic to utils function;
     * use early return for JSX & function;
-    * useSelector => take out selector outside;
+    * useSelector => take out selector outside and get only one item from redux:
+        https://www.techyfingers.com/youve-been-using-useselector-hook-wrong/
+        https://codesandbox.io/s/redux-useselector-object-destructuring-example-6up7h?file=/components/MethodTwo.jsx
     * use enum, for status code, key code, path, key of local storage...;
     * use customHooks, take out logic in custom hooks;
     * don't use nested ternary expressions => BAD PRACTIES <== ( a ? b ? c : d );
     * more line code, less nested code;
 
-# 10) Abstraction
+# 9) Single Layer of Abstraction - (SLA principle, "SLAP")
+    * https://www.youtube.com/watch?v=gPy8DLQxFfk
+    * https://pjatk.in/single-level-of-abstraction-principle.html
+    * https://medium.com/javarevisited/slap-that-ugly-code-6ec276d3a4bc
+    * https://medium.com/trabe/coding-react-components-single-level-of-abstraction-e60f25676235
 
     ~~~ MUST READ ~~~
     - magic number pattern;

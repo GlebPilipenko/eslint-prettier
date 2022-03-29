@@ -1,4 +1,4 @@
-## Last update 18 february 2022
+## Last update 29 March 2022
 
 ### If you use Webstorm or PhpStorm => open setting window or ctrl + alt + s, => Editor => Code style => and search field "Hard wrap at" => change value on 90
 ### Open setting window, top left in the search field add 'eslint' => (you will see 'Fix Eslint Problems' => add hot key and use it)
@@ -29,11 +29,10 @@ yarn add -D @typescript-eslint/eslint-plugin
 
 ### Create file
 
-Create .env in your project folder => add code from .env into your .env file Create
-.prettierrc file in your project folder => add code from .pretierrc into your .pretierrc
-file Create .eslintrc.json in your project folder => add code from .eslintrc.json into
-your .eslintrc.json file Create .eslintignore in your project folder => add code from
-.eslintignore into your .eslintignore file
+Create .env in your project folder => add code from .env into your .env file.
+Create .prettierrc file in your project folder => add code from .pretierrc into your .pretierrc file.
+Create .eslintrc.json in your project folder => add code from .eslintrc.json into your .eslintrc.json file.
+Create .eslintignore in your project folder => add code from .eslintignore into your .eslintignore file.
 
 ### into .gitignore file copy lines 25-29 and add code into your .gitignore file
 
@@ -52,14 +51,16 @@ POSSIBLE ERROR POSSIBLE ERROR POSSIBLE ERROR
 POSSIBLE ERROR POSSIBLE ERROR POSSIBLE ERROR
 POSSIBLE ERROR POSSIBLE ERROR POSSIBLE ERROR
 
+### If you get error > "this.cliEngineCtor is not a function" update your WS to min version 2021.2.2, if don't help update NodeJs
+
 ### If you get error > "context.getPhysicalFilename is not a function" <, use this link https://issueexplorer.com/issue/prettier/eslint-plugin-prettier/434
 
-If you have other error, remove object in package.json:
+### If you have other error, remove object in package.json:
 "eslintConfig": {
-"extends": [
-"react-app",
-"react-app/jest"
-]
+    "extends": [
+        "react-app",
+        "react-app/jest"
+    ]
 },
 
 POSSIBLE ERROR POSSIBLE ERROR POSSIBLE ERROR
