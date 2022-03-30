@@ -111,6 +111,18 @@
     ~~~ MUST READ ~~~
 
     ~~~ NOT NECESSARY ~~~
+    ~~~ NOT NECESSARY ~~~
+    ~~~ NOT NECESSARY ~~~
+# 10) Best practices, when a lot of early return or if/else if...
+    See mapperExample in 'utils' folder 
+
+    https://ultimatecourses.com/blog/deprecating-the-switch-statement-for-object-literals
+    https://dev.to/b3ns44d/alternative-to-if-else-and-switch-object-literals-in-javascript-3nde
+
+# 11) Other...
+
     If you read this article and make your tests, I will be happy to discuss this topic;
     https://medium.com/swlh/should-you-use-usememo-in-react-a-benchmarked-analysis-159faf6609b7#:~:text=useMemo%20should%20be%20used%20when,extra%20overhead%20for%20its%20usage
+    ~~~ NOT NECESSARY ~~~
+    ~~~ NOT NECESSARY ~~~
     ~~~ NOT NECESSARY ~~~
