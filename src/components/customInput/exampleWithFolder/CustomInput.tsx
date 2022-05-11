@@ -1,4 +1,4 @@
-import { FC, memo } from 'react';
+import { memo } from 'react';
 
 import { CustomInputType } from './types';
 
@@ -7,7 +7,7 @@ import { ReturnComponentType } from 'types';
 
 // const CROP_INDEX = 3;
 
-export const CustomInput: FC<CustomInputType> = memo(({ title }): ReturnComponentType => {
+export const CustomInputWith = memo(({ title }: CustomInputType): ReturnComponentType => {
   const { inputValue, handleFieldValueChange } = useFieldValue();
 
   // If you are using a magic number and this is a local case,
@@ -16,7 +16,7 @@ export const CustomInput: FC<CustomInputType> = memo(({ title }): ReturnComponen
   // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
   // const arrayOfNumbers = [1, 2, 3];
-  // const slicedArrayOfNumbers = arrayOfNumbers.slice(CROP_INDEX); // Not used number 3, use constant
+  // const slicedArrayOfNumbers = arrayOfNumbers.slice(CROP_INDEX 3); // Not used number 3, use constant
 
   // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 

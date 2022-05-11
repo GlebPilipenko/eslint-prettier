@@ -9,22 +9,22 @@ const VALUES_MAPPER: ValuesMapperType = {
   fourthKey: 'fourthValue',
 };
 
-// Good
+// Good practice
 const getCorrectValueGood = (key: string): string => VALUES_MAPPER[key];
 
 getCorrectValueGood('thirdKey');
 
-// Bad
+// Bad practice
 const getCorrectValueBad = (key: string): string => {
   if (key === 'firstKey') {
     return 'firstValue';
   }
 
-  if (key === 'firstKey') {
+  if (key === 'secondKey') {
     return 'secondValue';
   }
 
-  if (key === 'firstKey') {
+  if (key === 'thirdKey') {
     return 'thirdValue';
   }
 
