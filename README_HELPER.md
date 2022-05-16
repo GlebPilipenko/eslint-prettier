@@ -9,7 +9,7 @@
     - https://www.youtube.com/watch?v=7HYj4YfNMRM
     - https://www.youtube.com/watch?v=pCzbSJl2_RY
 
-## 4) Three principles to keep in mind: 
+## 4) Two principles to keep in mind: 
     - DRY (Don't reapeat yourselfe...), - Не повторяйся, т.е. нет дублированию кода или максимально стараться от него избавляться...
     https://www.youtube.com/watch?v=NWemqNMCesQ
     
@@ -70,6 +70,7 @@
     - imports => use absolute paths;
     - not use magic number => BAD PRACTICE <=;
     - not props.users => ({ users }) => and use in component users without props;
+
     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~     
     - use destructuring in props, .map() (all array methods) and in incoming parameters of functions;
     

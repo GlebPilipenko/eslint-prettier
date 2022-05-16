@@ -18,9 +18,9 @@ export const Example: FC<ExampleType> = (): ReturnComponentType => {
   // const history = useHistory();
 
   // useSelector => block
-  // const cats = useSelector(getCats);
-  // const users = useSelector(getUsers);
-  // const friends = useSelector(getFriends);
+  // const cats = useSelector(selectCats);
+  // const users = useSelector(selectUsers);
+  // const friends = useSelector(selectFriends);
 
   // useState or custom hooks => block
   // const [state1, setState1] = useState<boolean>(false);
