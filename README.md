@@ -44,6 +44,9 @@
     - Create .eslintignore in your project folder => add code from .eslintignore into your .eslintignore file.
     - Create .eslintrc.json in your project folder => add code from .eslintrc.json into your .eslintrc.json file.
 
+    - If we have a problems (errors from eslint or prettir and can commit code, wait some minutes,
+    or reboot WebStorm), after when we can commit changes with error we have a notification...
+
     - Congratulations! You are setup +- base config (eslint, prettier, husky) for React App
 
 ## Into .gitignore file copy lines 25-29 and add code into your .gitignore file
