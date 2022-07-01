@@ -22,4 +22,4 @@
 //   getItem = (localStorageName: string) => localStorage.getItem(localStorageName) || '[]'
 // }
 //
-// module.exports = LocalStorage;
+// export default LocalStorage;
