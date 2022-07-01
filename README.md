@@ -25,8 +25,8 @@
     - yarn add -D prettier eslint-config-prettier eslint-plugin-prettier eslint-plugin-react-hooks
 
     - yarn add -D husky
-    
-    - Afterr call "npx husky-init" command"
+
+    - Afterr call "npx husky-init && npm install" command"
     - y
     - In project we get new folder .husky, open pre-commit file and change "npm test" to "npx lint-staged"
     - Add "lint-fix": "eslint --fix" to script object in package.json

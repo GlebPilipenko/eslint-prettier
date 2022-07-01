@@ -25,10 +25,10 @@
     "lint-fix": "eslint --fix"
   },
   "lint-staged": {
-  "**/*.{js,ts,jsx,tsx}": [
-    "npm run lint-fix",
-    "prettier --write"
-  ]
+    "**/*.{js,ts,jsx,tsx}": [
+      "npm run lint-fix",
+      "prettier --write"
+    ]
   },
   "browserslist": {
     "production": [
