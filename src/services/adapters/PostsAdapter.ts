@@ -16,7 +16,9 @@
 //   return updatedPosts
 // }
 
-// This function usually called in api folder, when we get data from server (some endpoint).
+// This function usually called in api folder, when we get data from server (some endpoint)
+// or if you use SLAP you can call this function in folder services api,
+// in some method in class or function, who make all logic api.
 
 // EXAMPLE
 // const getCvs = config.get('someEndpoint')
