@@ -26,7 +26,7 @@
 
     - yarn add -D husky
 
-    - Afterr call "npx husky-init && npm install" command"
+    - After call "npx husky-init && yarn install" command"
     - y
     - In project we get new folder .husky, open pre-commit file and change "npm test" to "npx lint-staged"
     - Add "lint-fix": "eslint --fix" to script object in package.json
@@ -64,7 +64,7 @@ POSSIBLE ERROR POSSIBLE ERROR POSSIBLE ERROR
 POSSIBLE ERROR POSSIBLE ERROR POSSIBLE ERROR
 
 ## If error message: "this.cliEngineCtor is not a function" update your WS to min version 2021.2.2, if don't help update NodeJs
-## If error message: "context.getPhysicalFilename is not a function" <, use this link https://issueexplorer.com/issue/prettier/eslint-plugin-prettier/434
+## If error message: "context.getPhysicalFilename is not a function", use this link https://issueexplorer.com/issue/prettier/eslint-plugin-prettier/434
 ## If other error message, remove object in package.json:
 
 "eslintConfig": {
